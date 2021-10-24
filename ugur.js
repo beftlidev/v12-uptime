@@ -102,7 +102,7 @@ message.channel.send(yardım);
 
   message.channel.send(bilgi);
   };
-  if(message.content.startsWith(prefix + "uptime")) {
+  if(message.content.startsWith(prefix + "ekle")) {
   var link = message.content.split(" ").slice(1).join(" ");
 
   fetch(link).then(() => {
